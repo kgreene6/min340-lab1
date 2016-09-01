@@ -8,15 +8,19 @@ body {
     background: #fff;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #fff;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
     line-height: 1.5;
     margin: 0 auto;
-    max-width: 800px;
-    padding: 2em 2em 4em;
+    max-width: 600px;
+    
+    
 }
-
-h1, h2, h3, h4, h5, h6 {
+h1{
+   font-family: "rechtman", "WineTasting"; 
+    font-size: 50px;
+}
+h2, h3, h4, h5, {
     color: #fff;
     font-weight: 600;
     line-height: 1.3;
@@ -25,21 +29,61 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
     margin-top: 1.3em;
 }
+h6 {
+    font-size: 12px
+}
 
 a {
     color: #0083e8;
 }
+a:hover {
+    
+    -webkit-animation-name: example; 
+    -webkit-animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 4s;
+
+}
+
+@-webkit-keyframes example {
+    from {color: black;}
+    to {color: yellow;}
+}
+
 
 b, strong {
     font-weight: 600;
 }
 
+#rechtman {
+    position: absolute;
+    top: 0px;
+    color: #fff;
+}
+#Text {
+    position: absolute;
+    top: 100px;
+    width: 630px;
+    height: 630px
+    
+
+}
+
 #picture {
+    width:640px;
+    height:640px;
     background-image: url("kierstin.jpg");
     background-repeat: no-repeat;
 }
 #black {
+    position: absolute;
+    width:640px;
+    height:640px;
+    top:0px;
     background-color: rgba(0,0,0,0.5);
+}
+#WineTasting {
+    font-family: "WineTasting";
 }
 
 samp {
